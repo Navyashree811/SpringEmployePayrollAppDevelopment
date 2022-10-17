@@ -1,15 +1,15 @@
 package com.bridgelabz.model;
 
+import com.bridgelabz.dto.EmployeePayrollDTO;
+
 public class EmployeeData {
 	private int employeeId;
-	private String empName;
-	private long salry;
+	private EmployeePayrollDTO employeePayrollDTO;
 
-	public EmployeeData(int employeeId, String empName, long salry) {
+	public EmployeeData(int employeeId, EmployeePayrollDTO employeePayrollDTO) {
 		super();
 		this.employeeId = employeeId;
-		this.empName = empName;
-		this.salry = salry;
+		this.employeePayrollDTO = employeePayrollDTO;
 	}
 
 	public int getEmployeeId() {
@@ -20,24 +20,11 @@ public class EmployeeData {
 		this.employeeId = employeeId;
 	}
 
-	public String getEmpName() {
-		return empName;
+	public EmployeePayrollDTO getEmployeePayrollDTO() {
+		return employeePayrollDTO;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
+	public void setEmployeePayrollDTO(EmployeePayrollDTO employeePayrollDTO) {
+		this.employeePayrollDTO = employeePayrollDTO;
 	}
-
-	public long getSalry() {
-		return salry;
-	}
-
-	public void setSalry(long salry) {
-		this.salry = salry;
-	}
-
-	public EmployeeData() {
-
-	}
-
 }
