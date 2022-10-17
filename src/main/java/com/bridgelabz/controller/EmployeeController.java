@@ -3,6 +3,8 @@ package com.bridgelabz.controller;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -44,7 +46,7 @@ public class EmployeeController {
 	}
 
 	@PostMapping("/create")
-	public ResponseEntity<ResponseDto> addEmployeePayrollData(@RequestBody EmployeePayrollDTO employeePayrollDTO) {
+	public ResponseEntity<ResponseDto> addEmployeePayrollData(@Valid @RequestBody EmployeePayrollDTO employeePayrollDTO) {
 		EmployeeData emp = null;
 		emp = employeePayrollService.createEmployeePayrollData(employeePayrollDTO);
 		ResponseDto responseDto = new ResponseDto("Created Employee Payroll Data Successfully", emp);
