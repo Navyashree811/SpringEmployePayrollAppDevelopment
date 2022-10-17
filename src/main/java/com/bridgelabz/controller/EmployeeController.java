@@ -27,7 +27,7 @@ public class EmployeeController {
 	@Autowired
 	IEmployeePayrollService employeePayrollService;
 
-	@RequestMapping(value = { "", "/", "/get" })
+	@GetMapping(value = { "", "/", "/get" })
 	public ResponseEntity<ResponseDto> getEmployeePayrollData() {
 		List<EmployeeData> empList = null;
 		empList = employeePayrollService.getEmployeePayrollData();

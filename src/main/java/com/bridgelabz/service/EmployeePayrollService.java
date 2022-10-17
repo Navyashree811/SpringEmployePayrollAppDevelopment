@@ -1,4 +1,4 @@
-package com.bridgelabz.serviceImpl;
+package com.bridgelabz.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.bridgelabz.dto.EmployeePayrollDTO;
 import com.bridgelabz.model.EmployeeData;
-import com.bridgelabz.service.IEmployeePayrollService;
 
 @Service
 public class EmployeePayrollService implements IEmployeePayrollService {
