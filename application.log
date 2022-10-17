@@ -63,3 +63,101 @@
 2022-10-17 23:16:08.158  INFO 16020 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
 2022-10-17 23:16:08.631  INFO 16020 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.524 seconds (JVM running for 2835.018)
 2022-10-17 23:16:08.631  INFO 16020 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:17:13.315  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 4060 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:17:13.318 DEBUG 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:17:13.319  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:17:15.129  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 2.255 seconds (JVM running for 3.251)
+2022-10-17 23:17:15.132  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:21:04.896 ERROR 4060 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2] with root cause
+
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[na:na]
+	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[na:na]
+	at java.base/java.util.ArrayList.remove(ArrayList.java:504) ~[na:na]
+	at com.bridgelabz.service.EmployeePayrollService.deleteEmployeePayrollData(EmployeePayrollService.java:53) ~[classes/:na]
+	at com.bridgelabz.controller.EmployeeController.deleteEmployeePayrollData(EmployeeController.java:67) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-17 23:31:16.501  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 4060 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:31:16.501 DEBUG 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:31:16.501  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:31:16.888  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.426 seconds (JVM running for 845.01)
+2022-10-17 23:31:16.890  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:34:07.357  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 4060 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:34:07.357 DEBUG 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:34:07.357  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:34:07.668  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.345 seconds (JVM running for 1015.79)
+2022-10-17 23:34:07.670  INFO 4060 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:37:43.608  INFO 14820 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 14820 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:37:43.610 DEBUG 14820 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:37:43.611  INFO 14820 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:37:45.305  INFO 14820 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 2.162 seconds (JVM running for 3.146)
+2022-10-17 23:37:45.309  INFO 14820 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:41:45.079  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 14636 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:41:45.080 DEBUG 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:41:45.081  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:41:46.793  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 2.178 seconds (JVM running for 3.133)
+2022-10-17 23:41:46.796  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:44:37.215  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 14636 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:44:37.216 DEBUG 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:44:37.216  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:44:37.580  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.395 seconds (JVM running for 173.92)
+2022-10-17 23:44:37.582  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:44:37.583  INFO 14636 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-17 23:44:47.432  INFO 17184 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 17184 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-17 23:44:47.434 DEBUG 17184 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-17 23:44:47.435  INFO 17184 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-17 23:44:49.170  INFO 17184 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 2.475 seconds (JVM running for 3.577)
+2022-10-17 23:44:49.174  INFO 17184 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-17 23:44:49.175  INFO 17184 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
