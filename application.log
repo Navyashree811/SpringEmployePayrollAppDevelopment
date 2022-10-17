@@ -36,3 +36,510 @@
 2022-10-18 00:22:18.269  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.407 seconds (JVM running for 962.344)
 2022-10-18 00:22:18.271  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
 2022-10-18 00:22:18.272  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-18 00:25:18.906  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 4268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:25:18.906 DEBUG 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:25:18.908  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:25:19.300  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.424 seconds (JVM running for 1143.375)
+2022-10-18 00:25:19.303  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-18 00:25:19.304  INFO 4268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-18 00:29:59.535  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:29:59.537 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:29:59.538  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:30:01.334  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 2.261 seconds (JVM running for 3.262)
+2022-10-18 00:30:01.337  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-18 00:30:01.339  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-18 00:30:37.884  WARN 10268 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.dto.ResponseDto> com.bridgelabz.controller.EmployeeController.addEmployeePayrollData(com.bridgelabz.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [66]; codes [Min.employeePayrollDTO.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],500]; default message [Min wage should be more than 500]] ]
+2022-10-18 00:35:38.342  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:35:38.343 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:35:38.343  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:35:38.726  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.431 seconds (JVM running for 340.655)
+2022-10-18 00:35:38.729  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-18 00:35:38.729  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-18 00:37:36.368  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:37:36.369 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:37:36.369  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:37:36.787  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.464 seconds (JVM running for 458.716)
+2022-10-18 00:37:36.789  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-18 00:37:36.790  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-18 00:44:19.187  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:44:19.188 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:44:19.189  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:44:19.419  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:44:19.451 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 00:45:39.175  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:45:39.175 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:45:39.176  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:45:39.557  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:45:39.565 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 00:49:04.714  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:49:04.715 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:49:04.715  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:49:04.991  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:49:05.003 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 00:50:32.447  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:50:32.448 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:50:32.448  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:50:32.799  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:50:32.824 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:20) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 00:50:42.539  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:50:42.540 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:50:42.540  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:50:42.804  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:50:42.815 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:20) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 00:52:59.390  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:52:59.391 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:52:59.391  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:52:59.691  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:52:59.701 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 00:53:12.497  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 00:53:12.497 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 00:53:12.498  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 00:53:12.827  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+2022-10-18 00:53:12.836 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Type VariableDeclaratorId" to complete FormalParameterList
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:20) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 01:02:33.658  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 01:02:33.659 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 01:02:33.659  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 01:02:33.907  WARN 10268 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "}" to complete ClassBody
+
+2022-10-18 01:02:33.916 ERROR 10268 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeExceptionalHandler' defined in file [G:\STS\SpringEmployeePayrollAppDevelopment\target\classes\com\bridgelabz\exceptions\EmployeeExceptionalHandler.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "}" to complete ClassBody
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.bridgelabz.SpringEmployeePayrollAppDevelopmentApplication.main(SpringEmployeePayrollAppDevelopmentApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.exceptions.EmployeeExceptionalHandler]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "}" to complete ClassBody
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "}" to complete ClassBody
+
+	at com.bridgelabz.exceptions.EmployeeExceptionalHandler.<init>(EmployeeExceptionalHandler.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 24 common frames omitted
+
+2022-10-18 01:02:53.846  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 10268 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-18 01:02:53.848 DEBUG 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-18 01:02:53.849  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-18 01:02:54.271  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.501 seconds (JVM running for 1976.2)
+2022-10-18 01:02:54.275  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-18 01:02:54.275  INFO 10268 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
