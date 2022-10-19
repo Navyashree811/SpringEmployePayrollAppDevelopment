@@ -686,3 +686,21 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 2022-10-19 10:34:19.306  INFO 4200 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.886 seconds (JVM running for 135.832)
 2022-10-19 10:34:19.309  INFO 4200 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
 2022-10-19 10:34:19.309  INFO 4200 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-19 10:41:26.049  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 20452 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-19 10:41:26.052 DEBUG 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 10:41:26.053  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-19 10:41:28.699  WARN 20452 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-19 10:41:31.013  WARN 20452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 10:41:31.407  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 5.82 seconds (JVM running for 7.027)
+2022-10-19 10:41:31.411  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-19 10:41:31.411  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
+2022-10-19 10:41:48.659 DEBUG 20452 --- [http-nio-8080-exec-1] c.b.service.EmployeePayrollService       : Emp Data: EmployeeData(employeeId=0, name=Demo, salary=22093111, gender=female, startDate=2021-10-11, note=HR Time, profilePic=Image, derartments=[Testing])
+2022-10-19 10:42:16.491 DEBUG 20452 --- [http-nio-8080-exec-3] c.b.service.EmployeePayrollService       : Emp Data: EmployeeData(employeeId=0, name=Teo, salary=22093111, gender=male, startDate=2021-05-15, note=HR Time, profilePic=Image, derartments=[Testing])
+2022-10-19 10:50:03.574  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Starting SpringEmployeePayrollAppDevelopmentApplication using Java 17 on DESKTOP-3FN7D65 with PID 20452 (G:\STS\SpringEmployeePayrollAppDevelopment\target\classes started by dell in G:\STS\SpringEmployeePayrollAppDevelopment)
+2022-10-19 10:50:03.575 DEBUG 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 10:50:03.575  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : The following 1 profile is active: "dev"
+2022-10-19 10:50:03.948  WARN 20452 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-19 10:50:04.181  WARN 20452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 10:50:04.352  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Started SpringEmployeePayrollAppDevelopmentApplication in 0.81 seconds (JVM running for 519.972)
+2022-10-19 10:50:04.355  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll App Started in DEV Environment
+2022-10-19 10:50:04.355  INFO 20452 --- [restartedMain] EmployeePayrollAppDevelopmentApplication : Employee Payroll DB User is root
