@@ -24,7 +24,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 	@Override
 	public List<EmployeeData> getEmployeePayrollData() {
 
-		return empList;
+		return employeeRepository.findAll();
 	}
 
 	@Override
@@ -44,18 +44,9 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 
 	@Override
 	public EmployeeData updateEmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO) {
-		EmployeeData emp = this.getEmployeePayrollDataById(empId);
 
-		emp.setName(employeePayrollDTO.name);
-		emp.setSalary(employeePayrollDTO.salary);
-		emp.setDerartments(employeePayrollDTO.department);
-		emp.setGender(employeePayrollDTO.gender);
-		emp.setNote(employeePayrollDTO.note);
-		emp.setProfilePic(employeePayrollDTO.profilePic);
-		emp.setStartDate(employeePayrollDTO.startDate);
-
-		empList.set(empId - 1, emp);
-
+		EmployeeData emp = employeeRepository.findByEmployeeId(empId);
+		emp.updateEmployeePayrollData(employeePayrollDTO);
 		return employeeRepository.save(emp);
 	}
 

@@ -16,6 +16,8 @@ import com.bridgelabz.model.EmployeeData;
  */
 public interface EmployeePayrollRepository extends JpaRepository<EmployeeData, Integer> {
 
-	@Query(value = "SELECT * FROM employee_payroll_spring, employee_department where emp_id = id and department = department;", nativeQuery = true)
+	@Query(value = "SELECT * FROM employee_payroll_spring, employee_department where emp_id = id and department = :department", nativeQuery = true)
 	List<EmployeeData> findEmployeeByDepartment(String department);
+	
+	public EmployeeData findByEmployeeId(int id);
 }
